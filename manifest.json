@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Badger",
+    "description": "Snaaaaaake",
+    "version": "0.0.1",
+    "author": "Zany Penguin Productions",
+    "browser_action": {
+        "default_title": "Badger"
+    },
+    "web_accessible_resources": ["badge.png"],
+
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "storage",
+        "activeTab",
+        "https://twitter.com/*"
+    ],
+
+    "background": {
+        "scripts": [
+            "extension.js"
+        ]
+    }
+}
