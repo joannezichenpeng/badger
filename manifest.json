@@ -7,7 +7,7 @@
     "browser_action": {
         "default_title": "Badger"
     },
-    "web_accessible_resources": ["badge.png"],
+    "web_accessible_resources": ["badge.svg"],
 
     "permissions": [
         "tabs",
